@@ -1,0 +1,15 @@
+/* Toolbar Top, align left for IOS */
+.ios ion-toolbar ion-title {
+  text-align: start;
+  font-size: 14px;
+  color: var(--ion-color-step-800);
+  padding: 0 0 0 20px;
+}
+
+ion-modal {
+  --box-shadow: 0 28px 48px rgba(0, 0, 0, 0.4);
+  --backdrop-opacity: var(--ion-backdrop-opacity, 0.8);
+  --border-radius: var(--border-radius--large) var(--border-radius--large) 0px
+    0px;
+  --border-style: 0px solid black;
+}

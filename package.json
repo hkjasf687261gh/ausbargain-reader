@@ -1,0 +1,88 @@
+{
+  "name": "ozbargain-dto",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "@awesome-cordova-plugins/core": "^5.43.0",
+    "@awesome-cordova-plugins/in-app-purchase-2": "^5.43.0",
+    "@capacitor/android": "3.5.1",
+    "@capacitor/app": "1.1.1",
+    "@capacitor/browser": "^1.0.7",
+    "@capacitor/core": "3.5.1",
+    "@capacitor/device": "^1.1.2",
+    "@capacitor/haptics": "1.1.4",
+    "@capacitor/ios": "3.5.1",
+    "@capacitor/keyboard": "1.2.2",
+    "@capacitor/share": "^1.1.2",
+    "@capacitor/status-bar": "^1.0.8",
+    "@capacitor/storage": "^1.2.5",
+    "@ionic/react": "^6.0.0",
+    "@ionic/react-router": "^6.0.0",
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.5",
+    "@testing-library/user-event": "^12.6.3",
+    "@types/jest": "^26.0.20",
+    "@types/lodash": "^4.14.182",
+    "@types/node": "^12.19.15",
+    "@types/react": "^16.14.3",
+    "@types/react-dom": "^16.9.10",
+    "@types/react-router": "^5.1.11",
+    "@types/react-router-dom": "^5.1.7",
+    "cordova-plugin-purchase": "^11.0.0",
+    "ionicons": "^5.4.0",
+    "lodash": "^4.17.21",
+    "react": "^17.0.1",
+    "react-cool-inview": "^3.0.1",
+    "react-dom": "^17.0.1",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^5.0.0",
+    "rxjs": "^7.5.5",
+    "typescript": "^4.1.3",
+    "use-debounce": "^8.0.1",
+    "web-vitals": "^0.2.4",
+    "workbox-background-sync": "^5.1.4",
+    "workbox-broadcast-update": "^5.1.4",
+    "workbox-cacheable-response": "^5.1.4",
+    "workbox-core": "^5.1.4",
+    "workbox-expiration": "^5.1.4",
+    "workbox-google-analytics": "^5.1.4",
+    "workbox-navigation-preload": "^5.1.4",
+    "workbox-precaching": "^5.1.4",
+    "workbox-range-requests": "^5.1.4",
+    "workbox-routing": "^5.1.4",
+    "workbox-strategies": "^5.1.4",
+    "workbox-streams": "^5.1.4"
+  },
+  "scripts": {
+    "start": "ionic serve",
+    "start:proxy-local": "REACT_APP_USE_LOCAL_PROXY=true npm run start",
+    "build:ios": "REACT_APP_PROXY_API_KEY=$PROXY_API_KEY REACT_APP_PROXY_URL_PROD=$PROXY_URL_PROD ionic cap copy && ionic cap sync && ionic cap open ios",
+    "build": "react-scripts build",
+    "test": "react-scripts test --transformIgnorePatterns 'node_modules/(?!(@ionic/react|@ionic/react-router|@ionic/core|@stencil/core|ionicons)/)'",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@capacitor/cli": "3.5.1",
+    "cordova-res": "0.15.4"
+  },
+  "description": "An Ionic project"
+}

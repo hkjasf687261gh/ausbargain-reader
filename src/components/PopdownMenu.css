@@ -1,0 +1,4 @@
+ion-popover.popdown-menu {
+  --min-width: 250px;
+  --backdrop-opacity: 0.60;
+}

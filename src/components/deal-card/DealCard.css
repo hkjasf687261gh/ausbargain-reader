@@ -1,0 +1,15 @@
+ion-img::part(image) {
+  border-radius: 0 var(--border-radius--small) 0px 0px;
+}
+
+.deal-card--associated {
+  opacity: 0.4;
+  font-style: italic;
+  color: var(--ion-color-danger-shade);
+}
+
+.deal-card--referrer {
+  opacity: 0.4;
+  font-style: italic;
+  color: var(--ion-color-warning-shade);
+}

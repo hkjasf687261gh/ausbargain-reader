@@ -1,0 +1,12 @@
+ion-grid {
+  --ion-grid-padding: 10px;
+}
+
+ion-list {
+  border-radius: var(--border-radius--small);
+}
+
+.more-button {
+  --border-radius: var(--border-radius--small);
+  --background: var(--ion-item-background);
+}

@@ -1,0 +1,16 @@
+.deal-card-title--divider {
+  margin-top: 50px;
+  margin-left: 10px;
+  padding-bottom: 10px;
+  letter-spacing: -0.05rem;
+  border-bottom: 1px solid
+    var(--ion-item-background, var(--ion-background-color, #fff));
+}
+
+.deal-card-title--divider--no-margin {
+  margin-top: 15px;
+}
+
+.deal-card-title--time-ago {
+  opacity: 0.5;
+}

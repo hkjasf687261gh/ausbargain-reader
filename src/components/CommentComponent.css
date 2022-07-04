@@ -1,0 +1,41 @@
+.comment-container {
+  border-left: 1px solid var(--ion-color-light);
+  padding-left: 10px;
+  /* overflow-x: scroll;
+  width: 1000%; */
+}
+
+.comment-date {
+  font-size: 14px;
+  padding-left: 10px;
+  color: var(--ion-color-medium);
+}
+
+.comment-content {
+  color: var(--ion-color-dark-shade);
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.comment-votes {
+  padding-left: 5px;
+}
+
+.comment-votes-success {
+  color: var(--ion-color-success);
+}
+
+.comment-votes-warning {
+  color: var(--ion-color-warning);
+}
+
+.comment-content-container {
+  transition: max-height 0.3s ease-in-out;
+  overflow: hidden;
+}
+.comment--hidden {
+  max-height: 0;
+}
+.comment--visible {
+  max-height: 200px;
+}

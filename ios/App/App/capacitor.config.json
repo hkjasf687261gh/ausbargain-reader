@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.ozbargaindto",
+	"appName": "ozbargaindto",
+	"webDir": "build",
+	"bundledWebRuntime": false
+}

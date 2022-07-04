@@ -1,0 +1,7 @@
+{
+  "name": "ozbargain-dto",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
